@@ -8,17 +8,26 @@
  * or NULL if no such byte is found.
  */
 
-
-void print_chessboard(char (*a)[8])
+char *_strpbrk(char *s, char *accept)
 {
 	int itr, jtr;
+	char *p;
 
-	for (itr = 0; itr < 8; itr++)
+	itr = 0;
+	while (s[itr] != '\0')
 	{
-		for (jtr = 0; jtr < 8; jtr++)
+		jtr = 0;
+		while (accept[jtr] != '\0')
 		{
-			_putchar(a[itr][jtr]);
+			if (accept[jtr] == s[itr])
+			{
+				p = &s[itr];
+				return (p);
+			}
+			jtr++;
 		}
-		_putchar('\n');
+		itr++;
 	}
+
+	return (0);
 }
