@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _atoi - Convert a string to an integer.
+ * _atoi - Convert a string to an int.
  * @s: The pointer to convert
  *
- * Return: A integer
+ * Return: int
  */
 int _atoi(char *s)
 {
