@@ -3,9 +3,9 @@
 /**
  *_strncpy - function that copies a string
  *
- * @src: The source of strings
- * @dest: The destination of the string
- * @n: The length of int
+ * @src:  source of strings
+ * @dest: destination of the string
+ * @n: The length of an int
  *
  * Return: pointer to the resulting string dest
  */

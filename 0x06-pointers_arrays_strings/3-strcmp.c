@@ -1,10 +1,10 @@
 #include "main.h"
 /**
- * _strcmp - compare 2 string
+ * _strcmp - compare two strings
  * @s1:string
  * @s2:strmp
  * Return:int
- * Bwave/ Bright
+ * 
  */
 int _strcmp(char *s1, char *s2)
 {

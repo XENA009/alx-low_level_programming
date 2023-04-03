@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
-  * print_number - Prints any integer with putchar
-  * @n: Number to prints
+  * print_number - Prints any int  with putchar
+  * @n: Nmbr to prints
   *
-  * Return: Nothing
+  * Return:void
   */
 void print_number(int n)
 {

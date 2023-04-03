@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * string_toupper - change lowercase to uppercase
+ * string_toupper - lowercase to uppercase
  * @s:string
  * Return:char
  */
@@ -18,4 +18,4 @@ i = 0;
 	}
 	return (s);
 }
-/*Bwave ICT */
+
